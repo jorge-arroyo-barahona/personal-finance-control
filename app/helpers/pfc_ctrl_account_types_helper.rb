@@ -1,0 +1,2 @@
+module PfcCtrlAccountTypesHelper
+end

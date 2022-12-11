@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+pfc_ctrl_account_types = PfcCtrlAccountType.create([{ name: "BANK"}, { name: "EXPENSE"}, { name: "LIABILITY"},
+                                                    {name: "ASSET"},{name: "INCOME"},{name: "ROOT"},{name: "EQUITY"},
+                                                    {name: "CASH"}, {name: "CREDIT"}])
+#   Character.create(name: "Luke", movie: movies.first)

@@ -1,0 +1,2 @@
+class PfcCtrlAccountType < ApplicationRecord
+end
