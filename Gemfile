@@ -72,3 +72,7 @@ group :test do
 end
 
 gem "devise", "~> 4.8"
+
+gem "simple_form", "~> 5.1"
+
+gem "country_select", "~> 8.0"

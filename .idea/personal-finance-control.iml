@@ -47,6 +47,8 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.26, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v3.38.0, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.10, ruby-3.1.3-p185) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="countries (v5.2.0, ruby-3.1.3-p185) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="country_select (v8.0.0, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.7.0, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.8.1, ruby-3.1.3-p185) [gem]" level="application" />
@@ -88,6 +90,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.5, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.7.1, ruby-3.1.3-p185) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_form (v5.1.0, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.1.1, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.5.4, ruby-3.1.3-p185) [gem]" level="application" />
@@ -97,6 +100,7 @@
     <orderEntry type="library" scope="PROVIDED" name="turbo-rails (v1.3.2, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.5, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo-data (v1.2022.7, ruby-3.1.3-p185) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unaccent (v0.4.0, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.9, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v4.2.0, ruby-3.1.3-p185) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="webdrivers (v5.2.0, ruby-3.1.3-p185) [gem]" level="application" />
@@ -139,6 +143,7 @@
         <option value="responders_controller" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
+        <option value="simple_form:install" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
@@ -177,6 +182,7 @@
         <option value="responders_controller" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
+        <option value="simple_form:install" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
