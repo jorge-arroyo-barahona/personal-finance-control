@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69da21cd-bb9b-4ea8-a73d-bd09b6e49ddd" name="Changes" comment="Add gem simple_form.">
+    <list default="true" id="69da21cd-bb9b-4ea8-a73d-bd09b6e49ddd" name="Changes" comment="Add account types.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal-finance-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal-finance-control.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +159,7 @@
       <updated>1670728166276</updated>
       <workItem from="1670728167360" duration="2647000" />
       <workItem from="1670738968544" duration="600000" />
-      <workItem from="1670806166718" duration="6057000" />
+      <workItem from="1670806166718" duration="10773000" />
     </task>
     <task id="LOCAL-00001" summary="Add gem devise.">
       <created>1670730627903</created>
@@ -183,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670811404673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add account types.">
+      <created>1670815703903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670815703903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,10 +206,11 @@
     <MESSAGE value="Add gem devise." />
     <MESSAGE value="Add simple.min.css." />
     <MESSAGE value="Add gem simple_form." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gem simple_form." />
+    <MESSAGE value="Add account types." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add account types." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/personal_finance_control@personal_finance_control.rcov" NAME="personal-finance-control Coverage Results" MODIFIED="1670813466595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="personal-finance-control" />
+    <SUITE FILE_PATH="coverage/personal_finance_control@personal_finance_control.rcov" NAME="personal-finance-control Coverage Results" MODIFIED="1670823981991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="personal-finance-control" />
     <SUITE FILE_PATH="coverage/personal_finance_control@db_seed__personal_finance_control.rcov" NAME="db:seed: personal-finance-control Coverage Results" MODIFIED="1670813575912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="personal-finance-control" />
   </component>
 </project>
