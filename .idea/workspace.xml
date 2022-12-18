@@ -4,20 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69da21cd-bb9b-4ea8-a73d-bd09b6e49ddd" name="Changes" comment="Add account types.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/personal-finance-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal-finance-control.iml" afterDir="false" />
+    <list default="true" id="69da21cd-bb9b-4ea8-a73d-bd09b6e49ddd" name="Changes" comment="Add Tailwind CSS.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pfc_ctrl_account_types_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/pfc_ctrl_account_types_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/pfc_ctrl_account_type.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/_pfc_ctrl_account_type.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/_pfc_ctrl_account_type.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pfc_ctrl_account_types/show.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20221211015021_create_pfc_ctrl_account_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/pfc_ctrl_account_types_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/pfc_ctrl_account_types.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/pfc_ctrl_account_type_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/pfc_ctrl_account_types_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +72,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="rake db:seed" />
+      <command value="rails g scaffold" />
     </option>
   </component>
   <component name="RunManager" selected="Rails.personal-finance-control">
@@ -159,7 +176,9 @@
       <updated>1670728166276</updated>
       <workItem from="1670728167360" duration="2647000" />
       <workItem from="1670738968544" duration="600000" />
-      <workItem from="1670806166718" duration="10773000" />
+      <workItem from="1670806166718" duration="10985000" />
+      <workItem from="1670979683837" duration="3830000" />
+      <workItem from="1671369089881" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="Add gem devise.">
       <created>1670730627903</created>
@@ -196,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670815703903</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Tailwind CSS.">
+      <created>1670824224177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670824224177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,10 +233,11 @@
     <MESSAGE value="Add simple.min.css." />
     <MESSAGE value="Add gem simple_form." />
     <MESSAGE value="Add account types." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add account types." />
+    <MESSAGE value="Add Tailwind CSS." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Tailwind CSS." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/personal_finance_control@personal_finance_control.rcov" NAME="personal-finance-control Coverage Results" MODIFIED="1670823981991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="personal-finance-control" />
+    <SUITE FILE_PATH="coverage/personal_finance_control@personal_finance_control.rcov" NAME="personal-finance-control Coverage Results" MODIFIED="1671370387839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="personal-finance-control" />
     <SUITE FILE_PATH="coverage/personal_finance_control@db_seed__personal_finance_control.rcov" NAME="db:seed: personal-finance-control Coverage Results" MODIFIED="1670813575912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="personal-finance-control" />
   </component>
 </project>
